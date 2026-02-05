@@ -43,7 +43,7 @@ Pré-requisitos
 
 Configuração do ambiente
 1.) Clone o repositório:
-    - git clone https://github.com/seu-usuario/seu-repositorio.git
+    - git clone https://github.com/jrm0316/assistente-educacional-langchain.git
     - cd seu-repositorio
 
 2.) Crie um arquivo .env:
