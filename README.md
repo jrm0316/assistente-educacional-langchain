@@ -4,6 +4,7 @@ Assistente Educacional com LangChain e Groq
 - Projeto em Python que demonstra o uso do LangChain para criar prompts reutilizáveis e dinâmicos, integrados a um LLM da Groq (LLaMA 3.1).
 - O sistema gera explicações automáticas de conceitos técnicos com base em tema e nível de conhecimento, utilizando LCEL (LangChain Expression Language).
 
+
 Objetivo do Projeto
 Demonstrar, de forma prática, como:
 - Criar prompts parametrizados com PromptTemplate
@@ -11,6 +12,7 @@ Demonstrar, de forma prática, como:
 - Utilizar LCEL para conectar prompts a modelos de linguagem
 - Construir uma base reutilizável para assistentes educacionais, chatbots ou copilotos técnicos
 Este projeto vai além de uma simples chamada de API, aplicando boas práticas de arquitetura com LLMs.
+
 
 Como funciona
 Fluxo simplificado da aplicação:
@@ -27,6 +29,7 @@ Resposta gerada pela IA
 
 A IA não recebe código nem arquivos diretamente — ela recebe texto estruturado, montado dinamicamente pelo Python.
 
+
 Tecnologias Utilizadas
 - Python
 - LangChain
@@ -36,10 +39,12 @@ Tecnologias Utilizadas
 - LCEL (LangChain Expression Language)
 - dotenv (.env)
 
+
 Pré-requisitos
 - Python 3.10+
 - Conta na Groq
 - Chave de API da Groq
+
 
 Configuração do ambiente
 
@@ -53,12 +58,14 @@ Configuração do ambiente
 3.) Instale as dependências:
     - pip install langchain langchain-groq python-dotenv
 
+
 Executando o projeto
 - python main.py
 
 O código irá gerar automaticamente uma pergunta no formato:
 “Explique Python para um nível iniciante, com exemplos simples.”
 E exibirá a resposta da IA no terminal.
+
 
 Conceitos Aplicados
 - Prompt Engineering
@@ -68,6 +75,7 @@ Conceitos Aplicados
 - Integração com LLMs
 - Separação de lógica e texto
 
+
 Aplicações práticas
 Este padrão pode ser facilmente adaptado para:
 - Assistentes educacionais
@@ -76,8 +84,10 @@ Este padrão pode ser facilmente adaptado para:
 - Ferramentas de onboarding
 - APIs baseadas em LLM
 
+
 Observação
 - Este projeto foi desenvolvido com foco em aprendizado prático de IA aplicada, seguindo padrões utilizados em aplicações reais com LLMs.
+
 
 Autor
 - Desenvolvido por Juliano Madeira
