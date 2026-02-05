@@ -42,6 +42,7 @@ Pré-requisitos
 - Chave de API da Groq
 
 Configuração do ambiente
+
 1.) Clone o repositório:
     - git clone https://github.com/jrm0316/assistente-educacional-langchain.git
     - cd seu-repositorio
