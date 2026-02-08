@@ -1,6 +1,5 @@
 # Explica-tema-com-nivel-iniciante-LangChain-e-Groq
 
-Assistente Educacional com LangChain e Groq
 - Projeto em Python que demonstra o uso do LangChain para criar prompts reutilizáveis e dinâmicos, integrados a um LLM da Groq (LLaMA 3.1).
 - O sistema gera explicações automáticas de conceitos técnicos com base em tema e nível de conhecimento, utilizando LCEL (LangChain Expression Language).
 
