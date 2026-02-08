@@ -14,19 +14,11 @@ Este projeto vai além de uma simples chamada de API, aplicando boas práticas d
 
 
 Como funciona
-Fluxo simplificado da aplicação:
+- Fluxo simplificado da aplicação:
 
-Variáveis (tema, nível)
-        ↓
-PromptTemplate (LangChain)
-        ↓
-LCEL (prompt | llm)
-        ↓
-Modelo LLM (Groq - LLaMA 3.1)
-        ↓
-Resposta gerada pela IA
+Variáveis (tema, nível) -> PromptTemplate (LangChain) -> LCEL (prompt | llm) -> Modelo LLM (Groq - LLaMA 3.1) -> Resposta gerada pela IA
 
-A IA não recebe código nem arquivos diretamente — ela recebe texto estruturado, montado dinamicamente pelo Python.
+- A IA não recebe código nem arquivos diretamente — ela recebe texto estruturado, montado dinamicamente pelo Python.
 
 
 Tecnologias Utilizadas
@@ -48,7 +40,7 @@ Pré-requisitos
 Configuração do ambiente
 
 1.) Clone o repositório:
-    - git clone https://github.com/jrm0316/assistente-educacional-langchain.git
+    - git clone https://github.com/jrm0316/Explica-tema-com-nivel-iniciante-LangChain-e-Groq.git
     - cd seu-repositorio
 
 2.) Crie um arquivo .env:
@@ -58,36 +50,27 @@ Configuração do ambiente
     - pip install langchain langchain-groq python-dotenv
 
 
-Executando o projeto
-- python main.py
+- Executando o projeto
+    python main.py
 
 O código irá gerar automaticamente uma pergunta no formato:
 “Explique Python para um nível iniciante, com exemplos simples.”
 E exibirá a resposta da IA no terminal.
 
 
-Conceitos Aplicados
-- Prompt Engineering
-- Prompts reutilizáveis
-- Parametrização de entrada
-- Arquitetura com LangChain
-- Integração com LLMs
-- Separação de lógica e texto
+- Conceitos Aplicados
+    * Prompt Engineering
+    * Prompts reutilizáveis
+    * Parametrização de entrada
+    * Arquitetura com LangChain
+    * Integração com LLMs
+    * Separação de lógica e texto
 
 
-Aplicações práticas
+- Aplicações práticas
 Este padrão pode ser facilmente adaptado para:
 - Assistentes educacionais
 - Chatbots técnicos
 - Copilotos internos
 - Ferramentas de onboarding
 - APIs baseadas em LLM
-
-
-Observação
-- Este projeto foi desenvolvido com foco em aprendizado prático de IA aplicada, seguindo padrões utilizados em aplicações reais com LLMs.
-
-
-Autor
-- Desenvolvido por Juliano Madeira
-- Estudos focados em IA aplicada, backend e engenharia de prompts
