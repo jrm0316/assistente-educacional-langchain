@@ -68,6 +68,7 @@ E exibirá a resposta da IA no terminal.
 
 
 - Aplicações práticas
+  
 Este padrão pode ser facilmente adaptado para:
 - Assistentes educacionais
 - Chatbots técnicos
